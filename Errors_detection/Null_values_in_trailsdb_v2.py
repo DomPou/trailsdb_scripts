@@ -9,8 +9,6 @@ sys.path.append("C:\\Trailsdb_Scripts\\Variables")
 from Connection_to_trailsdb import *
 from GIS_email_variables import *
 
-print test
-
 def trailsdbErrorsEmail_NullValue(featureClass, globalIdValue, fieldNameNullValue):
 
 	msg = MIMEMultipart()
