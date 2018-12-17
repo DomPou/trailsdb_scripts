@@ -3,6 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 sys.path.append("C:\\Trailsdb_Scripts\\Variables")
+from Connection_to_trailsdb import *
 from GIS_email_variables import *
 
 sys.path.append(errorsDetectionFolder)
