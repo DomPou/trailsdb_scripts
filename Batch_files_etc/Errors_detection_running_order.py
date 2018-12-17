@@ -10,8 +10,8 @@ sys.path.append(errorsDetectionFolder)
 from Salesforce_vs_trailsdb_managers_owners_v1 import managersOwnersErrors
 #from Salesforce_vs_trailsdb_project_codes_points import missingProjectsPoints
 #from Salesforce_vs_trailsdb_project_codes_lines import missingProjectsLines
-from Null_values_in_trailsdb import nullValues
-#from Unknown_values_in_trailsdb import unknownValue
+from Null_values_in_trailsdb_v2 import nullValues
+from Unknown_values_in_trailsdb import unknownValue
 
 #sys.path.append("C:\\Trailsdb_Scripts\\\\Functions")
 #from Send_email_with_Microsoft_Exchange import trailsdbScriptSuccess

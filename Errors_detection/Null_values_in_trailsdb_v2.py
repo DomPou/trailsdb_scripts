@@ -74,25 +74,28 @@ featuresNoNull = [
 	["signage_trail", "project_code"]
 ]
 
-for status in statusList:
-	for feature in featuresNoNull:
-		featureName = "fc_" + feature[0] + "_" + status
-		print featureName
-		featurePath = gdbFeaturesRoot + featureName
-		#Use Exists because project_reg does not exists
-		if arcpy.Exists(featurePath):
-			#check if field project_code exists and select which search to do
-			if len(arcpy.ListFields(featurePath,"project_code")) == 0:
-				searchFields = [feature[1],"globalid"]
-				searchCursor = arcpy.da.SearchCursor(featurePath,searchFields)
-				for row in searchCursor:
-					if row[0] is None:
-						trailsdbErrorsEmail_NullValue(featureName, row[1], feature[1])
-			if not len(arcpy.ListFields(featurePath,"project_code")) == 0:
-				searchFields = [feature[1],"project_code","globalid"]
-				searchCursor = arcpy.da.SearchCursor(featurePath,searchFields)
-				for row in searchCursor:
-					if row[0] is None:
-						trailsdbErrorsEmail_NullValue(featureName, row[2], feature[1])
-					if row[1] is None:
-						trailsdbErrorsEmail_NullValue(featureName, row[2], "project_code")
+def nullValues():
+	for status in statusList:
+		for feature in featuresNoNull:
+			featureName = "fc_" + feature[0] + "_" + status
+			print featureName
+			featurePath = gdbFeaturesRoot + featureName
+			#Use Exists because project_reg does not exists
+			if arcpy.Exists(featurePath):
+				#check if field project_code exists and select which search to do
+				if len(arcpy.ListFields(featurePath,"project_code")) == 0:
+					searchFields = [feature[1],"globalid"]
+					searchCursor = arcpy.da.SearchCursor(featurePath,searchFields)
+					for row in searchCursor:
+						if row[0] is None:
+							trailsdbErrorsEmail_NullValue(featureName, row[1], feature[1])
+				if not len(arcpy.ListFields(featurePath,"project_code")) == 0:
+					searchFields = [feature[1],"project_code","globalid"]
+					searchCursor = arcpy.da.SearchCursor(featurePath,searchFields)
+					for row in searchCursor:
+						if row[0] is None:
+							trailsdbErrorsEmail_NullValue(featureName, row[2], feature[1])
+						if row[1] is None:
+							trailsdbErrorsEmail_NullValue(featureName, row[2], "project_code")
+
+nullValues()
