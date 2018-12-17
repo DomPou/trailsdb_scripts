@@ -10,7 +10,7 @@ sys.path.append(errorsDetectionFolder)
 from Salesforce_vs_trailsdb_managers_owners_v1 import managersOwnersErrors
 #from Salesforce_vs_trailsdb_project_codes_points import missingProjectsPoints
 #from Salesforce_vs_trailsdb_project_codes_lines import missingProjectsLines
-#from Null_values_in_trailsdb import nullValues
+from Null_values_in_trailsdb import nullValues
 #from Unknown_values_in_trailsdb import unknownValue
 
 #sys.path.append("C:\\Trailsdb_Scripts\\\\Functions")
@@ -38,7 +38,7 @@ def trailsdbScriptSuccess(scriptName):
 	server.quit()
 
 
-#nullValues()
+nullValues()
 #unknownValue()
 #missingProjectsPoints()
 #missingProjectsLines()
