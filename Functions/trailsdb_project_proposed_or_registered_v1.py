@@ -1,4 +1,4 @@
-import sys, arcpy
+import sys
 
 sys.path.append("C:\\Trailsdb_Scripts\\Variables")
 from Connection_to_trailsdb import *
