@@ -1,7 +1,7 @@
 import sys, arcpy
 
 sys.path.append("C:\\Trailsdb_Scripts\\Variables")
-from Connection_to_trailsdb import trailsdb_or_tests
+from Connection_to_trailsdb import *
 
 sys.path.append(functionsFolder)
 from trailsdb_project_features_by_type_v1 import projectFeatures_v1

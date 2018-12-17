@@ -7,14 +7,11 @@ from Connection_to_trailsdb import *
 from GIS_email_variables import *
 
 sys.path.append(errorsDetectionFolder)
+form Salesforce_vs_trailsdb_completed_projects_v1 import completedProjects
+from Salesforce_vs_trailsdb_GIS_alignment_done_v1 import gisDone
 from Salesforce_vs_trailsdb_managers_owners_v1 import managersOwnersErrors
-#from Salesforce_vs_trailsdb_project_codes_points import missingProjectsPoints
-#from Salesforce_vs_trailsdb_project_codes_lines import missingProjectsLines
 from Null_values_in_trailsdb_v2 import nullValues
-from Unknown_values_in_trailsdb import unknownValue
-
-#sys.path.append("C:\\Trailsdb_Scripts\\\\Functions")
-#from Send_email_with_Microsoft_Exchange import trailsdbScriptSuccess
+from Unknown_values_in_trailsdb_v1 import unknownValue
 
 def trailsdbScriptSuccess(scriptName):
 
@@ -37,11 +34,10 @@ def trailsdbScriptSuccess(scriptName):
 	server.sendmail(gisAddress, trailsdbErrorsAddress, text)
 	server.quit()
 
-
+completedProjects()
+gisDone()
 nullValues()
 unknownValue()
-#missingProjectsPoints()
-#missingProjectsLines()
 managersOwnersErrors()
 
 #Send an email once it is done saying everything worked
