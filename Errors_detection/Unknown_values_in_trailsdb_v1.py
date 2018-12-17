@@ -8,9 +8,6 @@ from email.mime.multipart import MIMEMultipart
 sys.path.append("C:\\Trailsdb_Scripts\\Variables")
 from Connection_to_trailsdb import *
 
-sys.path.append(functionsFolder)
-from Send_email_with_Microsoft_Exchange import trailsdbErrorsEmail_UnknownValue
-
 def trailsdbErrorsEmail_UnknownValue(featureClass, globalIdValue, fieldNameNullValue):
 
 	msg = MIMEMultipart()
