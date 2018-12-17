@@ -105,5 +105,5 @@ def gisDone():
 	# compare lists
 	for projectId in projectIdGisDoneList:
 		currentProjectCode = projectIdAndCodeDict.get(projectId)
-		if not currentProjectCode in projectCodeTrailsdbList:
+		if not currentProjectCode is None and not currentProjectCode in projectCodeTrailsdbList:
 			trailsdbErrorsEmail_GISalignmentDone(currentProjectCode)

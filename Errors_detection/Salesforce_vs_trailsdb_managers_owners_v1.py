@@ -211,4 +211,4 @@ def managersOwnersErrors():
 				salesforceAccountId = accountsDict2.get(trailAccountSF[6:])
 				trailsdbErrorsEmail_missingInfoFromSaleforce(mergeFeaturePath, feature, "Trail account in Salesforce but not in trailsdb", "account name", trailAccountSF, "salesforce id", salesforceAccountId)
 
-managersOwnersErrors()
+#managersOwnersErrors()

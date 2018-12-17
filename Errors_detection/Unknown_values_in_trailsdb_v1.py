@@ -63,4 +63,4 @@ def unknownValue():
 					if row[0] == 0:
 						trailsdbErrorsEmail_UnknownValue(featureName, row[1], feature[1])
 
-unknownValue()
+#unknownValue()

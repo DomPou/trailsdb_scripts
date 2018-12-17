@@ -78,7 +78,6 @@ def nullValues():
 	for status in statusList:
 		for feature in featuresNoNull:
 			featureName = "fc_" + feature[0] + "_" + status
-			print featureName
 			featurePath = gdbFeaturesRoot + featureName
 			#Use Exists because project_reg does not exists
 			if arcpy.Exists(featurePath):
@@ -98,4 +97,4 @@ def nullValues():
 						if row[1] is None:
 							trailsdbErrorsEmail_NullValue(featureName, row[2], "project_code")
 
-nullValues()
+#nullValues()

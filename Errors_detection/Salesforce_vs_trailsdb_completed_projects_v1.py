@@ -153,4 +153,4 @@ def completedProjects():
 			if projectStageInSalesforceStr in projectsStagesRegisteredInTraillsdb:
 				trailsdbErrorsEmail_CompletedProjectNotRegistered(signageProjectCodeTrailsdb,projectTypeInSalesforceStr,projectSubtypesInSalesforceList)
 
-completedProjects()
+#completedProjects()
