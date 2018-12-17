@@ -39,7 +39,7 @@ def trailsdbScriptSuccess(scriptName):
 
 
 nullValues()
-#unknownValue()
+unknownValue()
 #missingProjectsPoints()
 #missingProjectsLines()
 managersOwnersErrors()
