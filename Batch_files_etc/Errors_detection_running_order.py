@@ -7,7 +7,7 @@ from Connection_to_trailsdb import *
 from GIS_email_variables import *
 
 sys.path.append(errorsDetectionFolder)
-form Salesforce_vs_trailsdb_completed_projects_v1 import completedProjects
+from Salesforce_vs_trailsdb_completed_projects_v1 import completedProjects
 from Salesforce_vs_trailsdb_GIS_alignment_done_v1 import gisDone
 from Salesforce_vs_trailsdb_managers_owners_v1 import managersOwnersErrors
 from Null_values_in_trailsdb_v2 import nullValues
