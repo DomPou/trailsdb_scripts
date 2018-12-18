@@ -1,5 +1,3 @@
-# working : managersOwnersErrors()
-
 import smtplib, sys
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -9,10 +7,11 @@ from Connection_to_trailsdb import *
 from GIS_email_variables import *
 
 sys.path.append(errorsDetectionFolder)
+from Null_values_in_trailsdb_v2 import nullValues
 from Salesforce_vs_trailsdb_completed_projects_v1 import completedProjects
 from Salesforce_vs_trailsdb_GIS_alignment_done_v1 import gisDone
 from Salesforce_vs_trailsdb_managers_owners_v1 import managersOwnersErrors
-from Null_values_in_trailsdb_v2 import nullValues
+from Salesforce_vs_trailsdb_projects_coordinates import projectsCoordinates
 from Unknown_values_in_trailsdb_v1 import unknownValue
 
 def trailsdbScriptSuccess(scriptName):
@@ -38,9 +37,11 @@ def trailsdbScriptSuccess(scriptName):
 
 completedProjects()
 gisDone()
-nullValues()
-unknownValue()
 managersOwnersErrors()
+nullValues()
+projectsCoordinates()
+unknownValue()
+
 
 #Send an email once it is done saying everything worked
 trailsdbScriptSuccess("task_scheduler_errors_emails.bat")
