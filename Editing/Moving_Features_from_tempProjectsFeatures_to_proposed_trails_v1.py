@@ -10,16 +10,7 @@ from Editing_Variables_v1 import *
 
 sys.path.append(functionsFolder)
 from Build_SQL_Where_Clause import *
-'''
-# General Variables
-# database_version = trailsdb or trailsdb_tests
-database_version = "trailsdb_tests"
-gdbVariables = trailsdb_or_tests(database_version)
-gdbName = gdbVariables[0]
-gdbPath = gdbVariables[1]
-gdbFeaturesRoot = gdbVariables[2]
-archivesFeaturePath = gdbFeaturesRoot + "fc_projects_archives"
-'''
+
 # Script Variables
 featuresList = []
 # Line features in trailsdb - Proposed
