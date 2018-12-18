@@ -56,7 +56,7 @@ def intersectFeatureClassesFromTrailsdb_returnName_v1(mainFeatureName, intersect
 	outFeatureFieldsDomains = {}
 	outFeatureFieldsTable = {}
 
-	# Add main feature's fields and intersect feature's fields to lists and dictionnaries use to create output feature
+	# Add main feature's fields and intersect feature's fields to lists and dictionaries use to create output feature
 	for field in mainFeatureFields:
 		if not field.name in fieldsToIgnoreOrDelete:
 				if not field.name in outFeatureFields:
