@@ -6,9 +6,16 @@ from Connection_to_trailsdb import *
 sys.path.append(functionsFolder)
 from Build_SQL_Where_Clause import *
 
-sys.path.append(exportDataFolder)
-from Variables_internal_or_public import *
-
+#Field join, field
+tablesJoinedFields =[
+	["local_trail_id","local_trail_name_en"],
+	["local_trail_id","local_trail_name_fr"],
+	["project_code","project_name"],
+	["regional_trail_id","regional_trail_name_en"],
+	["regional_trail_id","regional_trail_name_fr"],
+	["trail_code","trail_code_name_en"],
+	["trail_code","trail_code_name_fr"],
+]
 
 def intersectFeatureClassesFromTrailsdb_returnName_v1(mainFeatureName, intersectFeatureName, database_version):
 	# General Variables
@@ -47,7 +54,8 @@ def intersectFeatureClassesFromTrailsdb_returnName_v1(mainFeatureName, intersect
 	outFeatureName = "int_" + mainFeatureRoot + "_" + intersectFeatureRoot + nameFeatureEnd
 	outFeature = gdbFeaturesRoot_queries + outFeatureName
 	# output Fields
-	fieldsToIgnoreOrDelete = ["objectid", "shape", "globalid", "created_user", "created_date", "last_edited_user", "last_edited_date"]
+	fieldsToIgnoreOrDeleteMain = ["objectid", "shape", "globalid", "created_user", "created_date", "last_edited_user", "last_edited_date"]
+	fieldsToIgnoreOrDeleteIntersect = ["objectid", "shape", "globalid", "created_user", "created_date", "last_edited_user"]
 	outFeatureFields = []
 	outFeatureFieldsNewNames = {}
 	outFeatureFieldsType = {}
@@ -61,12 +69,12 @@ def intersectFeatureClassesFromTrailsdb_returnName_v1(mainFeatureName, intersect
 
 	# Add main feature's fields and intersect feature's fields to lists and dictionaries use to create output feature
 	for field in mainFeatureFields:
-		if not field.name in fieldsToIgnoreOrDelete:
+		if not field.name in fieldsToIgnoreOrDeleteMain:
 				if not field.name in outFeatureFields:
 					outFeatureFields.append(field.name)
 					outFeatureFieldsNewNames.update({field.name:mainFeatureRoot[:5] + "_" + field.name})
 					outFeatureFieldsType.update({field.name:field.type})
-					for tableField in tablesFieldsInternalPublicInfo:
+					for tableField in tablesJoinedFields:
 						if tableField[0] == field.name:
 							if not tableField[1] in outFeatureFields:
 								outFeatureFields.append(tableField[1])
@@ -76,12 +84,12 @@ def intersectFeatureClassesFromTrailsdb_returnName_v1(mainFeatureName, intersect
 						outFeatureFieldsWithDomain.append(field.name)
 						outFeatureFieldsDomains.update({field.name:field.domain})
 	for field in intersectFeatureFields:
-		if not field.name in fieldsToIgnoreOrDelete:
+		if not field.name in fieldsToIgnoreOrDeleteIntersect:
 			if not field.name in outFeatureFields:
 				outFeatureFields.append(field.name)
 				outFeatureFieldsNewNames.update({field.name:intersectFeatureRoot[:5] + "_" + field.name})
 				outFeatureFieldsType.update({field.name:field.type})
-				for tableField in tablesFieldsInternalPublicInfo:
+				for tableField in tablesJoinedFields:
 					if tableField[0] == field.name:
 						if not tableField[1] in outFeatureFields:
 							outFeatureFields.append(tableField[1])
@@ -113,3 +121,5 @@ def intersectFeatureClassesFromTrailsdb_returnName_v1(mainFeatureName, intersect
 			except: continue
 
 	return outFeatureName
+
+#intersectFeatureClassesFromTrailsdb_returnName_v1("fc_trail_code_reg", "fc_atv_reg", "trailsdb")
