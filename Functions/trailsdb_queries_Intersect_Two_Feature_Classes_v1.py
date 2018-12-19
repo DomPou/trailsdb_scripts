@@ -10,7 +10,10 @@ sys.path.append(exportDataFolder)
 from Variables_internal_or_public import *
 
 
-def intersectFeatureClassesFromTrailsdb_returnName_v1(mainFeatureName, intersectFeatureName):
+def intersectFeatureClassesFromTrailsdb_returnName_v1(mainFeatureName, intersectFeatureName, database_version):
+	# General Variables
+	gdbVariables = trailsdb_or_tests(database_version)
+	gdbFeaturesRoot = gdbVariables[2]
 
 	"""Intersect a feature Class with a Main Feature Class"""
 

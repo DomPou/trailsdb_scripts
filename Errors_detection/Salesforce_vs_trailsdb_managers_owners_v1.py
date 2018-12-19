@@ -10,7 +10,15 @@ from Connection_to_trailsdb import *
 from GIS_email_variables import *
 
 sys.path.append(functionsFolder)
-from trailsdb_queries_Intersect_Two_Feature_Classes_v1 import *
+from trailsdb_queries_Intersect_Two_Feature_Classes_v1 import intersectFeatureClassesFromTrailsdb_returnName_v1
+
+# General Variables
+# database_version = trailsdb or trailsdb_tests
+database_version = "trailsdb"
+gdbVariables = trailsdb_or_tests(database_version)
+gdbName = gdbVariables[0]
+gdbPath = gdbVariables[1]
+gdbFeaturesRoot = gdbVariables[2]
 
 def trailsdbErrorsEmail_missingInfoFromSaleforce(featureClass, subject, errorTypeTxt, fieldName1, value1, fieldName2, value2):
 
@@ -150,7 +158,7 @@ def managersOwnersErrors():
 			fc1 = "fc_trail_code_" + status
 			fc2 = "fc_" + feature + "_" + status
 			# function from trailsdb_queries_Intersect_Two_Feature_Classes
-			name = intersectFeatureClassesFromTrailsdb_returnName_v1(fc1, fc2)
+			name = intersectFeatureClassesFromTrailsdb_returnName_v1(fc1, fc2, database_version)
 			intersectList.append(name)
 
 		# Dissolve intersects
