@@ -3,9 +3,6 @@ import sys, arcpy, string
 sys.path.append("C:\\Trailsdb_Scripts\\Variables")
 from Connection_to_trailsdb import *
 
-sys.path.append(functionsFolder)
-from Build_SQL_Where_Clause import *
-
 #Field join, field
 tablesJoinedFields =[
 	["local_trail_id","local_trail_name_en"],
