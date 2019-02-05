@@ -46,10 +46,7 @@ def completedProjects():
 	# database_version = trailsdb or trailsdb_tests
 	database_version = "trailsdb"
 	gdbVariables = trailsdb_or_tests(database_version)
-	gdbName = gdbVariables[0]
-	gdbPath = gdbVariables[1]
 	gdbFeaturesRoot = gdbVariables[2]
-	archivesFeaturePath = gdbFeaturesRoot + "fc_projects_archives"
 
 
 	# Salesforce Info
@@ -123,7 +120,7 @@ def completedProjects():
 			wayfindingTrailsdbList.append(row[0])
 
 	for wayfindingProjectCodeTrailsdb in wayfindingTrailsdbList:
-		projectFSalesforceVariable = projectStageAndClassification_v1(projectCodeTrailsdb)
+		projectFSalesforceVariable = projectStageAndClassification_v1(wayfindingProjectCodeTrailsdb)
 		projectTypeInSalesforceStr = projectFSalesforceVariable[0]
 		projectSubtypesInSalesforceList = projectFSalesforceVariable[1]
 		projectStageInSalesforceStr = projectFSalesforceVariable[3]
