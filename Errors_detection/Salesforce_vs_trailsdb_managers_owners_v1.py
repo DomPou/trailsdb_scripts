@@ -190,17 +190,19 @@ def managersOwnersErrors():
 		possibleIDList = possibleValuesDict.get(feature)
 		cursorUpdate = arcpy.da.UpdateCursor(mergeFeaturePath,["trail_trail_code", salesforceidField, validationField])
 		for rowUpdate in cursorUpdate:
-			accountNameGet = accountsDict.get(rowUpdate[1])
-			if accountNameGet is None:
-				currentPossibleValue = ""
-				# Check for a similar id in saleforce to help determine if it is an input mistake in trailsdb or a changed value in Saleforce
-				for currentIdValue in possibleIDList:
-					if rowUpdate[1] in currentIdValue:
-						currentPossibleValue = currentIdValue
-				trailsdbErrorsEmail_notInSaleforce(mergeFeaturePath, feature, "trail_trail_code", rowUpdate[0], salesforceidField, rowUpdate[1], currentPossibleValue)
-			if not accountNameGet is None:
-				rowUpdate[2] = rowUpdate[0] + ": " + accountNameGet
-				cursorUpdate.updateRow(rowUpdate)
+			# To avoid null values found in other code
+			if not rowUpdate[0] is None:
+				accountNameGet = accountsDict.get(rowUpdate[1])
+				if accountNameGet is None:
+					currentPossibleValue = ""
+					# Check for a similar id in saleforce to help determine if it is an input mistake in trailsdb or a changed value in Saleforce
+					for currentIdValue in possibleIDList:
+						if rowUpdate[1] in currentIdValue:
+							currentPossibleValue = currentIdValue
+					trailsdbErrorsEmail_notInSaleforce(mergeFeaturePath, feature, "trail_trail_code", rowUpdate[0], salesforceidField, rowUpdate[1], currentPossibleValue)
+				if not accountNameGet is None:
+					rowUpdate[2] = rowUpdate[0] + ": " + accountNameGet
+					cursorUpdate.updateRow(rowUpdate)
 		# Second part, look if every trail_account_name in Salesforce are in trailsdb
 		salesforceList = validationDict.get(feature)
 		trailsdbList = []
