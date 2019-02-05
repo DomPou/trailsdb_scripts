@@ -116,7 +116,6 @@ def managersOwnersErrors():
 	trailAccountsSalesforce_Manager_List = []
 	idsSalesforce_Owner_List = []
 	idsSalesforce_Manager_List = []
-	validationDict = {}
 
 
 	cursorAccounts = arcpy.da.SearchCursor(accountTablePath,accountTableFields)

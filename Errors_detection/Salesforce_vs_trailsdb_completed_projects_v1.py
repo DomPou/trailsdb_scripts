@@ -14,7 +14,7 @@ from salesforce_objects_projects_stage_and_classification_v1 import projectStage
 def trailsdbErrorsEmail_CompletedProjectNotRegistered(projectCode,projectType,projectSubtypes):
 
 	msg = MIMEMultipart()
-	subject = "Trailsdb error - Project completed in Salesforce"
+	subject = "Trailsdb error - " + projectType + " project completed in Salesforce"
 	body = """
 Project completed in Salesforce but not registered in trailsdb
 

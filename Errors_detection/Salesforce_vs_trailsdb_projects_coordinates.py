@@ -41,8 +41,6 @@ def projectsCoordinates():
 	projectsFeaturePath = gdbFeaturesRoot + "fc_project_pro"
 	projectsFeatureField = "project_code"
 	projectsSFList = []
-	projectsSFLatitudeDict = {}
-	projectsSFLongitudeDict = {}
 	projectsTrailsdbList = []
 	csvList = ["project_code,latitude,longitude"]
 	csvListChanged = 0
@@ -54,7 +52,6 @@ def projectsCoordinates():
 	searchCursor2 = arcpy.da.SearchCursor(projectsTablePath, projectsTableFields)
 	for row2 in searchCursor2:
 		if not row2[0] in projectsTrailsdbList and not row2[0] in projectsSFList and not row2[1] is None and not row2[2] is None:
-			print row2[0]
 			projectsSFList.append(row2[0])
 			csvList.append(str(row2[0]) + "," + str(row2[1]) + "," + str(row2[2]))
 			csvListChanged = 1
