@@ -1,7 +1,5 @@
 import sys
 
-startTime = time.time()
-
 sys.path.append("C:\\Trailsdb_Scripts\\Variables")
 from Connection_to_trailsdb import *
 

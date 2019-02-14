@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://C:/Trailsdb_Scripts/.idea/Trailsdb_Scripts.iml" filepath="C:/Trailsdb_Scripts/.idea/Trailsdb_Scripts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/trailsdb_scripts.iml" filepath="$PROJECT_DIR$/.idea/trailsdb_scripts.iml" />
     </modules>
   </component>

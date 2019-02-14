@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3296455d-b690-4f01-aac1-7b1745f174c2" name="Default Changelist" comment="Created Moving_features_from_proposed_trails_to_registered_trails_v2 and functions to get information directly from Salesforce">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trailsdb_scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trailsdb_scripts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Editing/Moving_features_from_proposed_trails_to_registered_trails_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Editing/Moving_features_from_proposed_trails_to_registered_trails_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/trailsdb_project_features_by_type_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/trailsdb_project_features_by_type_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/trailsdb_project_validate_data_by_type_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/trailsdb_project_validate_data_by_type_v1.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="trailsdb_scripts" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Editing/Moving_features_from_proposed_trails_to_registered_trails_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/trailsdb_project_validate_data_by_type_v1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/salesforce_objects_projects_stage_and_classification_v1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/trailsdb_project_features_by_type_v1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6494">
+              <caret line="382" column="64" selection-start-line="382" selection-start-column="64" selection-end-line="382" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>projectStageAndClassification_v1</find>
+      <find>Alignm</find>
+      <find>unkno</find>
+      <find>None</find>
+      <find>projectIdGisDoneList</find>
+      <find>projectsList</find>
+      <find>projectsLongitudeDict</find>
+      <find>intersectFeatureClassesFromTrailsdb_returnName_v1</find>
+      <find>featureWithRoot</find>
+      <find>mainFeature</find>
+      <find>tablesFieldsInternalPublicInfo</find>
+      <find>where</find>
+      <find>rojectProposedOrRegistered_v1</find>
+      <find>projectFeatures_v1</find>
+      <find>essential_Features_Validation_Status_CONSTRUCTION</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>projectSFLongitudeDict</replace>
+      <replace>tablesJoinedFields</replace>
+      <replace>projectStageAndClassification_inMemory_v1</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="Tests" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Errors_detection/Salesforce_missing_classification_v1.py" />
+        <option value="$PROJECT_DIR$/Export_data/Variables_internal_or_public.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_construction_project_validate_data_by_type_v1.py" />
+        <option value="$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_missing_proposed_info_v1.py" />
+        <option value="$PROJECT_DIR$/Functions/Send_email_with_Microsoft_Exchange.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_project_register_after_validation_v1.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_project_remove_from_proposed_datasets_v1.py" />
+        <option value="$PROJECT_DIR$/Errors_detection/Unknown_values_in_trailsdb_v1.py" />
+        <option value="$PROJECT_DIR$/Errors_detection/Null_values_in_trailsdb_v2.py" />
+        <option value="$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_GIS_alignment_done_v1.py" />
+        <option value="$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_project_codes_points.py" />
+        <option value="$PROJECT_DIR$/Editing/Editing_Variables_v1.py" />
+        <option value="$PROJECT_DIR$/Editing/Empty_tempProjectsFeature_v1.py" />
+        <option value="$PROJECT_DIR$/Editing/Moving_Features_from_tempProjectsFeatures_to_proposed_trails_v1.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_project_intersect_features_v1.py" />
+        <option value="$PROJECT_DIR$/Replica/Create_empty_trailsdb_tests.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_intersect_trail_codes.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_intersect_trail_codes_project_codes_to_all_v1.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_intersect_trail_codes_project_codes_managers_owners_to_all_v1.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_queries_intersect_main_features_to_all_v1.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_queries_table_last_changes.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_queries_Intersect_Two_Feature_Classes_v1.py" />
+        <option value="$PROJECT_DIR$/Salesforce/Connection_variables.py" />
+        <option value="C:/Trailsdb_Scripts/Variables/Connection_to_trailsdb.py" />
+        <option value="$PROJECT_DIR$/Salesforce/Get_objects_in_memory_v1.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_project_proposed_or_registered_v1.py" />
+        <option value="$PROJECT_DIR$/Functions/salesforce_objects_projects_stage_and_classification_v1.py" />
+        <option value="$PROJECT_DIR$/Editing/Moving_features_from_proposed_trails_to_registered_trails_v1.py" />
+        <option value="$PROJECT_DIR$/Editing/Moving_features_from_proposed_trails_to_registered_trails_CHARLES.py" />
+        <option value="$PROJECT_DIR$/Batch_files_etc/task_scheduler_errors_emails.bat" />
+        <option value="$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_projects_coordinates.py" />
+        <option value="$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_managers_owners_v1.py" />
+        <option value="$PROJECT_DIR$/Batch_files_etc/Errors_detection_running_order.py" />
+        <option value="$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_completed_projects_v1.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_project_features_by_type_v1.py" />
+        <option value="$PROJECT_DIR$/Functions/trailsdb_project_validate_data_by_type_v1.py" />
+        <option value="$PROJECT_DIR$/Editing/Moving_features_from_proposed_trails_to_registered_trails_v2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-121" />
+    <option name="y" value="97" />
+    <option name="width" value="2420" />
+    <option name="height" value="880" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trailsdb_scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trailsdb_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Batch_files_etc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trailsdb_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Editing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trailsdb_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Errors_detection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trailsdb_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Export_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trailsdb_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trailsdb_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Replica" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trailsdb_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Salesforce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trailsdb_Scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trailsdb_Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Variables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trailsdb_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EditingToolbox_python2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DPoulin\OneDrive\trailsdb_scripts\Editing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DPoulin\OneDrive\trailsdb_scripts\Functions" />
+      <recent name="C:\Users\DPoulin\OneDrive\trailsdb_scripts\Errors_detection" />
+      <recent name="C:\Users\DPoulin\OneDrive\trailsdb_scripts\Export_data" />
+      <recent name="C:\Users\DPoulin\OneDrive\trailsdb_scripts\Editing" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Errors_detection_running_order">
+    <configuration name="Create_empty_trailsdb_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="trailsdb_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Replica" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Replica/Create_empty_trailsdb_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Errors_detection_running_order" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="trailsdb_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Batch_files_etc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Batch_files_etc/Errors_detection_running_order.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Get_objects_in_memory_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="trailsdb_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Salesforce" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Salesforce/Get_objects_in_memory_v1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trailsdb_queries_Intersect_Two_Feature_Classes_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="trailsdb_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/trailsdb_queries_Intersect_Two_Feature_Classes_v1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trailsdb_queries_table_last_changes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="trailsdb_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/trailsdb_queries_table_last_changes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Errors_detection_running_order" />
+        <item itemvalue="Python.Get_objects_in_memory_v1" />
+        <item itemvalue="Python.Create_empty_trailsdb_tests" />
+        <item itemvalue="Python.trailsdb_queries_table_last_changes" />
+        <item itemvalue="Python.trailsdb_queries_Intersect_Two_Feature_Classes_v1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3296455d-b690-4f01-aac1-7b1745f174c2" name="Default Changelist" comment="" />
+      <created>1544816132935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544816132935</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Original script to register trails">
+      <created>1544817043256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544817043256</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Original script to register trails">
+      <created>1544817097882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544817097882</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Build SQL where clause for arcpy">
+      <created>1544817903473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544817903473</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cleaned">
+      <created>1544817963472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544817963472</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cleaned">
+      <created>1544818203659</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544818203659</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cleaned">
+      <created>1544818284493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544818284493</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cleaned">
+      <created>1544818324946</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544818324946</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cleaned">
+      <created>1544820605996</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544820605996</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Function or standalone">
+      <created>1545059326926</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545059326926</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Server's path">
+      <created>1545059572537</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545059572537</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Managers and owners only">
+      <created>1545059594630</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1545059594630</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Server path error correction">
+      <created>1545059800093</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1545059800093</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Connection_to_trailsdb">
+      <created>1545059945797</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1545059945797</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Pause">
+      <created>1545061646979</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1545061646979</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added Connection_to_trailsdb">
+      <created>1545061816980</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1545061816980</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Path error">
+      <created>1545061880694</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1545061880694</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Path error">
+      <created>1545067463851</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1545067463851</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added null values and unknown values">
+      <created>1545067861472</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1545067861472</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Error in paths and added new functions">
+      <created>1545068471173</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1545068471173</updated>
+    </task>
+    <task id="LOCAL-00020" summary="New error detections">
+      <created>1545072637904</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1545072637904</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Path error">
+      <created>1545072787637</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1545072787637</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Path error">
+      <created>1545072904547</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1545072904547</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Error in email">
+      <created>1545073888512</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1545073888512</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Cleaned">
+      <created>1545082701546</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1545082701546</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added projects coordinates">
+      <created>1545158846725</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1545158846725</updated>
+    </task>
+    <task id="LOCAL-00026" summary="First version">
+      <created>1545167864895</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1545167864895</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Cleaned">
+      <created>1545167905697</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1545167905697</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Cleaned">
+      <created>1545168014020</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1545168014020</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Cleaned">
+      <created>1545168324018</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1545168324018</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added choice between trailsdb and trailsdb_tests">
+      <created>1545233504904</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1545233504904</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added choice between trailsdb and trailsdb_tests">
+      <created>1545237256987</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1545237256987</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Changed join to tables">
+      <created>1545253511196</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1545253511196</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Removed pause">
+      <created>1546632710202</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1546632710202</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Created Moving_features_from_proposed_trails_to_registered_trails_v2 and functions to get information directly from Salesforce">
+      <created>1547576185648</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1547576185648</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Created Moving_features_from_proposed_trails_to_registered_trails_v2 and functions to get information directly from Salesforce">
+      <created>1549392283135</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1549392283135</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Created Moving_features_from_proposed_trails_to_registered_trails_v2 and functions to get information directly from Salesforce">
+      <created>1549393911598</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1549393911598</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added Salesforce Folder">
+      <created>1549393991411</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1549393991411</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Cleaned">
+      <created>1549396463943</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1549396463943</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Removed error for Wayfinding projects">
+      <created>1549398692025</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1549398692025</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48429036" visible="true" weight="0.2528978" />
+      <window_info id="Structure" order="1" sideWeight="0.5141643" side_tool="true" weight="0.22934566" />
+      <window_info id="Favorites" order="2" sideWeight="0.51570964" side_tool="true" weight="0.22918862" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43445286" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.25893825" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48429036" visible="true" weight="0.2528978" />
+      <window_info id="Structure" order="1" sideWeight="0.5141643" side_tool="true" weight="0.22934566" />
+      <window_info id="Favorites" order="2" sideWeight="0.51570964" side_tool="true" weight="0.22918862" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43445286" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.25893825" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Tests" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Original script to register trails" />
+    <MESSAGE value="Build SQL where clause for arcpy" />
+    <MESSAGE value="Function or standalone" />
+    <MESSAGE value="Server's path" />
+    <MESSAGE value="Managers and owners only" />
+    <MESSAGE value="Server path error correction" />
+    <MESSAGE value="Added Pause" />
+    <MESSAGE value="Added Connection_to_trailsdb" />
+    <MESSAGE value="Added null values and unknown values" />
+    <MESSAGE value="Error in paths and added new functions" />
+    <MESSAGE value="New error detections" />
+    <MESSAGE value="Path error" />
+    <MESSAGE value="Error in email" />
+    <MESSAGE value="Added projects coordinates" />
+    <MESSAGE value="First version" />
+    <MESSAGE value="Created trailsdb_queries_intersect_main_features_to_all" />
+    <MESSAGE value="Changed join to tables" />
+    <MESSAGE value="Removed pause" />
+    <MESSAGE value="Created Moving_features_from_proposed_trails_to_registered_trails_v2 and functions to get information directly from Salesforce" />
+    <MESSAGE value="added Salesforce Folder" />
+    <MESSAGE value="Cleaned" />
+    <MESSAGE value="Removed error for Wayfinding projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed error for Wayfinding projects" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="908" column="76" selection-start-line="908" selection-start-column="76" selection-end-line="908" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Errors_detection/Salesforce_missing_classification_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Errors_detection/Unknown_values_in_trailsdb_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding>
+            <element signature="e#47#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Send_email_with_Microsoft_Exchange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="78" column="17" lean-forward="true" selection-start-line="54" selection-end-line="78" selection-end-column="17" />
+          <folding>
+            <element signature="e#47#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export_data/Variables_internal_or_public.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="51" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/trailsdb_queries_table_last_changes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Replica/Create_empty_trailsdb_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/trailsdb_construction_project_validate_data_by_type_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Batch_files_etc/task_scheduler_intersections.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Batch_files_etc/Merge_pro_reg_running_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Batch_files_etc/task_scheduler_joins.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/trailsdb_queries_intersect_main_features_to_all_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/trailsdb_queries_Intersect_Two_Feature_Classes_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Errors_detection/Null_values_in_trailsdb_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding>
+            <element signature="e#47#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Editing/Moving_features_from_proposed_trails_to_registered_trails_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Salesforce/Get_objects_in_memory_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="190" column="37" lean-forward="true" selection-start-line="9" selection-end-line="190" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Salesforce/Salesforce_connection_variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Trailsdb_Scripts/Variables/Connection_to_trailsdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/trailsdb_project_proposed_or_registered_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/trailsdb_project_register_after_validation_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Editing/Moving_features_from_proposed_trails_to_registered_trails_CHARLES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#1002#1179#0" />
+            <element signature="e#1197#1677#0" />
+            <element signature="e#819#8028#0" />
+            <element signature="e#8093#9219#0" />
+            <element signature="e#9437#25595#0" />
+            <element signature="e#25801#30461#0" />
+            <element signature="e#25796#26135#0" />
+            <element signature="e#30532#34954#0" />
+            <element signature="e#35643#37898#0" />
+            <element signature="e#37975#39093#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Build_SQL_Where_Clause.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Batch_files_etc/task_scheduler_errors_emails.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/trailsdb_project_intersect_features_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/trailsdb_project_remove_from_proposed_datasets_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_completed_projects_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Editing/Empty_tempProjectsFeature_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Editing/Editing_Variables_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Batch_files_etc/Errors_detection_running_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Editing/Moving_Features_from_tempProjectsFeatures_to_proposed_trails_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_managers_owners_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_projects_coordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_GIS_alignment_done_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="106" column="64" selection-start-line="106" selection-start-column="64" selection-end-line="106" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Errors_detection/Salesforce_vs_trailsdb_missing_proposed_info_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/trailsdb_project_features_by_type_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6494">
+          <caret line="382" column="64" selection-start-line="382" selection-start-column="64" selection-end-line="382" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/trailsdb_project_validate_data_by_type_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/salesforce_objects_projects_stage_and_classification_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Editing/Moving_features_from_proposed_trails_to_registered_trails_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

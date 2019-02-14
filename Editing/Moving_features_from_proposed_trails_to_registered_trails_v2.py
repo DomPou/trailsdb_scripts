@@ -4,8 +4,8 @@ sys.path.append("C:\\Trailsdb_Scripts\\Variables")
 from Connection_to_trailsdb import *
 
 sys.path.append(functionsFolder)
-from trailsdb_project_features_by_type_v1 import projectFeatures_v1
-from trailsdb_project_validate_data_by_type_v1 import projectDataValidation_v1
+from trailsdb_project_features_by_type_v1 import projectFeatures_inMemory_v1
+from trailsdb_project_validate_data_by_type_v1 import projectDataValidation_inMemory_v1
 from trailsdb_project_proposed_or_registered_v1 import projectProposedOrRegistered_inMemory_v1
 from trailsdb_project_register_after_validation_v1 import registerValidatedProject_v1
 from trailsdb_project_remove_from_proposed_datasets_v1 import removeProjectFromProposedDatasets_v1
@@ -42,7 +42,7 @@ if projectDatasetStr == "Registered":
 
 	# Getting features included in this project and list of essential features for this type of project
 	arcpy.AddMessage("Identifying essential features for this project")
-	projectFeaturesVariable = projectFeatures_v1(project_code_value, database_version)
+	projectFeaturesVariable = projectFeatures_inMemory_v1(project_code_value, database_version)
 	projectNoMissingListValidation = projectFeaturesVariable[10]
 	projectMissingListMessage = projectFeaturesVariable[11]
 
@@ -52,7 +52,7 @@ if projectDatasetStr == "Registered":
 			arcpy.AddError(errorMessage)
 	if projectNoMissingListValidation == "True":
 		arcpy.AddMessage("Checking for errors in essential features")
-		projectValidationVariables = projectDataValidation_v1(project_code_value, database_version)
+		projectValidationVariables = projectDataValidation_inMemory_v1(project_code_value, database_version)
 		projectEssentialFeaturesValidationStatusStr = projectValidationVariables[0]
 		projectEssentialFeaturesValidationMissingList = projectValidationVariables[1]
 		projectFeaturesLengthValidationStatusStr = projectValidationVariables[2]

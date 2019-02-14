@@ -1,0 +1,1 @@
+start C:\Python27\ArcGIS10.6\python.exe C:\Trailsdb_Scripts\trailsdb_Intersections_Script.py
